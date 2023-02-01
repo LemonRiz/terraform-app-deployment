@@ -60,7 +60,7 @@ module "application-tier" {
  ]
 }
 
-resource "aws_key_pair" "deployer" {
-    key_name = "MehdiRizvi-awskey"
-    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCIg6ONzQBDoZjM7h2CDxgGaZcRIjc4RCbKSclwJsBU8W6/I+lBTQWx91nlRvyiewU/wMvlrlBlMiTKlOO0YijJatWPDyekS+/34/C8GTxbhOvesgkqcikxePIiLdYsyHHaXfj2IM6GIASfroCwIxTdfJHCBPnoaD+pmryvzyuSNVOBhs+9u6c5405yMIryj5FYJrjposurl/ILr9BTWkFymE8Zi6RqSlsrRsQzO+VZ80X+ZJA89pn62bQvapZk9Rkwis33Od8O7vw5k6EN8+FUFUN3XJR34wUtN6rl7FpvzwaZsKJ+Oq9jL/oNBn5/5Sb8FSKwzGph/1w+8Y55T3Pr"
-}
+# resource "aws_key_pair" "deployer" {
+#     key_name = "MehdiRizvi-awskey"
+#     public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCIg6ONzQBDoZjM7h2CDxgGaZcRIjc4RCbKSclwJsBU8W6/I+lBTQWx91nlRvyiewU/wMvlrlBlMiTKlOO0YijJatWPDyekS+/34/C8GTxbhOvesgkqcikxePIiLdYsyHHaXfj2IM6GIASfroCwIxTdfJHCBPnoaD+pmryvzyuSNVOBhs+9u6c5405yMIryj5FYJrjposurl/ILr9BTWkFymE8Zi6RqSlsrRsQzO+VZ80X+ZJA89pn62bQvapZk9Rkwis33Od8O7vw5k6EN8+FUFUN3XJR34wUtN6rl7FpvzwaZsKJ+Oq9jL/oNBn5/5Sb8FSKwzGph/1w+8Y55T3Pr"
+# }
